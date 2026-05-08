@@ -11,7 +11,7 @@
 
 ```bash
 # 编译 SIMD 版本
-g++ -O3 -march=native main.cc -o main
+g++ -O2 -march=native main.cc -o main
 
 # 提交到集群运行
 bash test.sh 1 1
